@@ -1,0 +1,76 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  margin:0; padding:0;
+  box-sizing: border-box;
+  outline: none; border:none;
+  text-decoration: none;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+  background-color: rgb(49, 41, 87);
+}
+h1 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  color: white;
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.container {
+  text-align: center;
+}
+
+.container input {
+  width: 40rem;
+  max-width: 95%;
+  padding: 1rem;
+  border-radius: .5rem;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  border: none;
+  outline:none;
+  color: white;
+}
+
+.container .search input,
+.container .add-todo input {
+  background-color: rgb(34, 28, 70);  
+}
+
+.container .search input:hover,
+.container .add-todo input:hover { 
+  border: .3rem solid rgb(36, 36, 139);
+}
+
+.container .list-group li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 40rem;
+  max-width: 95%;
+  padding: 1rem;
+  border-radius: .2rem;
+  font-size: 1.5rem;
+  margin: .1rem auto;
+  color: white;
+  background: rgb(62, 55, 104);
+  cursor: pointer;
+}
+
+.container .add-todo label {
+  display: inline-block;
+  margin: 1rem 0;;
+  font-size: 1.5rem;
+  color: white;
+} 
+
+.container .list-group .list-item.filtered {
+  display: none;
+}
+
+
+
